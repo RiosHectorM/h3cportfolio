@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { motion } from "framer-motion";
+import { socials } from "../constants";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -16,17 +16,29 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">See my code in GitHub
+        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
+          See my code in GitHub
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
-          <img src="/github.svg" alt="github" className="w-[24px] h-[24px]object-contain" />
-          <span className="font-normal text-[16px] text-white">GITHUB</span>
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
+        >
+          <a href="https://github.com/RiosHectorM" target="_blank">
+            <img
+              src="/github.svg"
+              alt="github"
+              className="w-[24px] h-[24px]object-contain"
+            />
+            <span className="font-normal text-[16px] text-white">GITHUB</span>
+          </a>
         </button>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">Rios Hector Martin</h4>
+          <h4 className="font-extrabold text-[24px] text-white">
+            Rios Hector Martin
+          </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             H3C Dev Portfolio
           </p>
