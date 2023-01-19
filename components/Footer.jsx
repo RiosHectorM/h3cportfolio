@@ -19,19 +19,19 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           See my code in GitHub
         </h4>
-        <button
-          type="button"
-          className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
-        >
-          <a href="https://github.com/RiosHectorM" target="_blank" rel="noreferrer">
+        <a href="https://github.com/RiosHectorM" target="_blank" rel="noreferrer">
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
+          >
             <img
               src="/github.svg"
               alt="github"
               className="w-[24px] h-[24px]object-contain"
             />
             <span className="font-normal text-[16px] text-white">GITHUB</span>
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
