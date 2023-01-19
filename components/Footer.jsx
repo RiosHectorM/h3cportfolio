@@ -22,7 +22,7 @@ const Footer = () => (
         <a href="https://github.com/RiosHectorM" target="_blank" rel="noreferrer">
           <button
             type="button"
-            className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
+            className="flex items-center h-auto justify-center py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
           >
             <img
               src="/github.svg"
