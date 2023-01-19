@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import { socials } from "../constants";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
 
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -23,7 +23,7 @@ const Footer = () => (
           type="button"
           className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
         >
-          <a href="https://github.com/RiosHectorM" target="_blank">
+          <a href="https://github.com/RiosHectorM" target="_blank" rel="noreferrer">
             <img
               src="/github.svg"
               alt="github"
