@@ -1,0 +1,130 @@
+export const exploreWorlds = [
+  {
+    id: 'p-1',
+    imgUrl: '/p1.jpg',
+    title: 'Project 1',
+  },
+  {
+    id: 'p-2',
+    imgUrl: '/p2.png',
+    title: 'Project 2',
+  },
+  {
+    id: 'p-3',
+    imgUrl: '/p3.png',
+    title: 'Project 3',
+  },
+  {
+    id: 'p-4',
+    imgUrl: '/p4.png',
+    title: 'Project 4',
+  },
+  {
+    id: 'p-5',
+    imgUrl: '/p5.jpg',
+    title: 'Project 5',
+  },
+];
+
+export const startingFeatures = [
+  'React JS - Next JS',
+  'HTML - CSS - JavaScript',
+  'Node - Express - Go - Python',
+  'Bootstrap - Tailwind',
+  'MySQL - MongoDB - PostgreSQL',
+  'GIT - GITHUB',
+];
+
+export const newFeatures = [
+  {
+    imgUrl: '/t-w.svg',
+    title: 'Teamwork',
+  },
+  {
+    imgUrl: '/r-p.svg',
+    title: 'Problem solving',
+  },
+  {
+    imgUrl: '/c.svg',
+    title: 'Communication',
+  },
+  {
+    imgUrl: '/adapt.svg',
+    title: 'Adaptability',
+  },
+  {
+    imgUrl: '/c-t.svg',
+    title: 'Critical thinking',
+  },
+  {
+    imgUrl: '/t.svg',
+    title: 'Time management',
+  },
+  {
+    imgUrl: '/r.svg',
+    title: 'Responsibility',
+  },
+  {
+    imgUrl: '/cr.svg',
+    title: 'Creativity',
+  },
+  {
+    imgUrl: '/l.svg',
+    title: 'Willingness to learn',
+  },
+];
+
+export const insights = [
+  {
+    imgUrl: '/henry.png',
+    title: '| SOY HENRY - Full Stack Developer - Henry BootCamp (in progress)',
+    subtitle:
+      'Henry Student. Full stack developer certification with javascript, react, node and other technologies for web development',
+  },
+  {
+    imgUrl: '/ocasa.png',
+    title: '| OCASA - Logistics Operator -SAP Business',
+    subtitle:
+      'Distribution of medicines and medical supplies for hospitals in the province of Cordoba Argentina. Warehouse Stock and Inventory Control. SAP System Management',
+  },
+  {
+    imgUrl: '/autobank.jpeg',
+    title: '| AUTOBANK - ATM Electronic Technician. IT Support.',
+    subtitle:
+      'Installation and maintenance of ATMs in the Banco de la Provincia de Cordoba Argentina. Application software development.Installation of global positioning systems, temperature sensors and security cameras',
+  },
+];
+
+export const socials = [
+  {
+    name: 'twitter',
+    url: '/twitter.svg',
+  },
+  {
+    name: 'linkedin',
+    url: '/linkedin.svg',
+  },
+  {
+    name: 'instagram',
+    url: '/instagram.svg',
+  },
+  {
+    name: 'facebook',
+    url: '/facebook.svg',
+  },
+];
+
+export const contacts = [
+  {
+    item: 'rios.hector.martin@gmail.com',
+    imgUrl: '/mail.svg',
+  },
+  {
+    item: '+54 9 3517739781',
+    imgUrl: '/phone.svg',
+  },
+  {
+    item: 'Cordoba - Argentina',
+    imgUrl: '/locate.svg',
+  },
+];
