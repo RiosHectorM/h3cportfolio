@@ -15,19 +15,19 @@ export const exploreWorlds = [
   },
   {
     id: 'p-3',
-    imgUrl: '/p3.png',
-    title: 'Project 3',
+    imgUrl: '/pet.jpg',
+    title: 'PetChatBot (in Progress)',
   },
   {
     id: 'p-4',
-    imgUrl: '/p4.png',
-    title: 'Project 4',
+    imgUrl: '/pokemon.jpg',
+    title: 'Pokedex H3C (in Progress)',
   },
-  {
-    id: 'p-5',
-    imgUrl: '/p5.jpg',
-    title: 'Project 5',
-  },
+  // {
+  //   id: 'p-5',
+  //   imgUrl: '/p5.jpg',
+  //   title: 'New Project (in Progress)',
+  // },
 ];
 
 export const startingFeatures = [
