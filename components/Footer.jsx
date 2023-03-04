@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import { socials } from '../constants';
+import { motion } from "framer-motion";
+import { socials } from "../constants";
 
-import styles from '../styles';
-import { footerVariants } from '../utils/motion';
+import styles from "../styles";
+import { footerVariants } from "../utils/motion";
 
 const Footer = () => (
   <motion.footer
@@ -19,7 +19,11 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           See my code in GitHub
         </h4>
-        <a href="https://github.com/RiosHectorM" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/RiosHectorM"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             type="button"
             className="flex items-center h-auto justify-center py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
@@ -44,12 +48,14 @@ const Footer = () => (
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img
-                key={social.name}
-                src={social.url}
-                alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
-              />
+              <a href={social.href}>
+                <img
+                  key={social.name}
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain cursor-pointer"
+                />
+              </a>
             ))}
           </div>
         </div>

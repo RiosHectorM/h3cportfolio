@@ -1,13 +1,17 @@
 export const exploreWorlds = [
   {
     id: 'p-1',
-    imgUrl: '/p1.jpg',
-    title: 'Project 1',
+    imgUrl: '/RyMApp.png',
+    title: 'Rick and Morty App (In Maintenance)',
+    gitHub: 'https://github.com/RiosHectorM/rick-and-morty',
+    deploy: 'https://rick-and-morty-two-silk.vercel.app/',
   },
   {
     id: 'p-2',
-    imgUrl: '/p2.png',
-    title: 'Project 2',
+    imgUrl: '/weather.png',
+    title: 'Weather App',
+    gitHub: 'https://github.com/RiosHectorM/weather-app-deh',
+    deploy: 'https://weather-app-kappa-eight.vercel.app/',
   },
   {
     id: 'p-3',
@@ -31,7 +35,7 @@ export const startingFeatures = [
   'HTML - CSS - JavaScript',
   'Node - Express - Go - Python',
   'Bootstrap - Tailwind',
-  'MySQL - MongoDB - PostgreSQL',
+  'MySQL - PostgreSQL',
   'GIT - GITHUB',
 ];
 
@@ -96,22 +100,23 @@ export const insights = [
 ];
 
 export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
+  // {
+  //   name: 'twitter',
+  //   url: '/twitter.svg',
+  // },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    href: 'https://www.linkedin.com/in/rioshectormartin/',
   },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
+  // {
+  //   name: 'instagram',
+  //   url: '/instagram.svg',
+  // },
+  // {
+  //   name: 'facebook',
+  //   url: '/facebook.svg',
+  // },
 ];
 
 export const contacts = [

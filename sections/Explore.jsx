@@ -10,7 +10,7 @@ import { exploreWorlds } from '../constants';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
-  const [active, setActive] = useState('p-3');
+  const [active, setActive] = useState('p-1');
 
   return (
     <section className={`${styles.paddings}`} id="explore">
