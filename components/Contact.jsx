@@ -3,7 +3,7 @@
 const Contact = ({ item, imgUrl }) => (
   <>
     <div
-      className="justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-[#323F5D] items-center"
+      className="justify-center w-[70px] h-[70px] rounded-[24px] bg-[#323F5D] items-center"
     >
       <img src={imgUrl} alt="icon" className="w-[90%] h-[90%] object-contain" />
     </div>

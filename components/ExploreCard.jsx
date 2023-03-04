@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from '../utils/motion';
 
 const ExploreCard = ({
   id,
@@ -15,9 +15,9 @@ const ExploreCard = ({
   handleClick,
 }) => (
   <motion.div
-    variants={fadeIn("right", "spring", index * 0.2, 0.75)}
+    variants={fadeIn('right', 'spring', index * 0.2, 0.75)}
     className={`relative ${
-      active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
+      active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
     } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[1s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
