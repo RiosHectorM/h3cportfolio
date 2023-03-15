@@ -2,7 +2,7 @@ export const exploreWorlds = [
   {
     id: 'p-1',
     imgUrl: '/RyMApp.png',
-    title: 'Rick and Morty App (In Maintenance)',
+    title: 'Rick and Morty App',
     gitHub: 'https://github.com/RiosHectorM/rick-and-morty',
     deploy: 'https://rick-and-morty-two-silk.vercel.app/',
   },
