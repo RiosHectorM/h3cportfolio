@@ -1,10 +1,10 @@
 export const exploreWorlds = [
   {
     id: 'p-1',
-    imgUrl: '/RyMApp.png',
-    title: 'Rick and Morty App',
-    gitHub: 'https://github.com/RiosHectorM/rick-and-morty',
-    deploy: 'https://rick-and-morty-two-silk.vercel.app/',
+    imgUrl: '/pokemon.jpg',
+    title: 'Pokemon App H3C',
+    gitHub: 'https://github.com/RiosHectorM/Pokemon-App',
+    deploy: 'https://pokemon-rioshectorm.vercel.app/',
   },
   {
     id: 'p-2',
@@ -15,13 +15,15 @@ export const exploreWorlds = [
   },
   {
     id: 'p-3',
-    imgUrl: '/pet.jpg',
-    title: 'PetChatBot (in Progress)',
+    imgUrl: '/RyMApp.png',
+    title: 'Rick and Morty App',
+    gitHub: 'https://github.com/RiosHectorM/rick-and-morty',
+    deploy: 'https://rick-and-morty-two-silk.vercel.app/',
   },
   {
     id: 'p-4',
-    imgUrl: '/pokemon.jpg',
-    title: 'Pokedex H3C (in Progress)',
+    imgUrl: '/pet.jpg',
+    title: 'PetChatBot (in Progress)',
   },
   // {
   //   id: 'p-5',
