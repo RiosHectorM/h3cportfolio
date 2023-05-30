@@ -1,35 +1,37 @@
 export const exploreWorlds = [
   {
     id: 'p-1',
+    imgUrl: '/fd.png',
+    title: 'Flight Deck - LogBook',
+    gitHub: 'https://github.com/RiosHectorM/FLIGHT-DECK',
+    deploy: 'https://flight-deck-ten.vercel.app/',
+  },
+  {
+    id: 'p-2',
     imgUrl: '/pokemon.jpg',
     title: 'Pokemon App H3C',
     gitHub: 'https://github.com/RiosHectorM/Pokemon-App',
     deploy: 'https://pokemon-rioshectorm.vercel.app/',
   },
   {
-    id: 'p-2',
+    id: 'p-3',
     imgUrl: '/weather.png',
     title: 'Weather App',
     gitHub: 'https://github.com/RiosHectorM/weather-app-deh',
     deploy: 'https://weather-app-kappa-eight.vercel.app/',
   },
   {
-    id: 'p-3',
+    id: 'p-4',
     imgUrl: '/RyMApp.png',
     title: 'Rick and Morty App',
     gitHub: 'https://github.com/RiosHectorM/rick-and-morty',
     deploy: 'https://rick-and-morty-two-silk.vercel.app/',
   },
   {
-    id: 'p-4',
+    id: 'p-5',
     imgUrl: '/pet.jpg',
     title: 'PetChatBot (in Progress)',
   },
-  // {
-  //   id: 'p-5',
-  //   imgUrl: '/p5.jpg',
-  //   title: 'New Project (in Progress)',
-  // },
 ];
 
 export const startingFeatures = [
