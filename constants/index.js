@@ -29,8 +29,13 @@ export const exploreWorlds = [
   },
   {
     id: 'p-5',
-    imgUrl: '/pet.jpg',
-    title: 'PetChatBot (in Progress)',
+    imgUrl: '/iocontroller.jpg',
+    title: 'I/O Controller (in Progress)',
+  },
+  {
+    id: 'p-6',
+    imgUrl: '/pelu.jpg',
+    title: 'Hair Salon Flutter App (in Progress)',
   },
 ];
 
