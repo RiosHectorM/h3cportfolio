@@ -41,7 +41,7 @@ export const exploreWorlds = [
 
 export const startingFeatures = [
   'Javascript - React - Next',
-  'Dart - Flutter',
+  'Dart - Flutter - Clean Architecture',
   'Node - Express - Go - Python - C#',
   'CSS - Bootstrap - Tailwind',
   'MySQL - PostgreSQL - MongoDB',
