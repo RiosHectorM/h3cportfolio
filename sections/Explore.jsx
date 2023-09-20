@@ -22,8 +22,16 @@ const Explore = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText tittle="| Projects" textStyles="text-center" />
-        <TitleText tittle={<>Choose one Project <br className="md:block hidden" /> for details... </>} textStyles="text-center" />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <TitleText
+          tittle={(
+            <>
+              Choose one Project <br className="md:block hidden" /> for
+              details...{' '}
+            </>
+          )}
+          textStyles="text-center"
+        />
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5 flex-wrap ">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}

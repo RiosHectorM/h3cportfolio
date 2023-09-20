@@ -40,12 +40,12 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'React JS - Next JS',
-  'HTML - CSS - JavaScript',
-  'Node - Express - Go - Python',
-  'Bootstrap - Tailwind',
-  'MySQL - PostgreSQL',
-  'GIT - GITHUB',
+  'Javascript - React - Next',
+  'Dart - Flutter',
+  'Node - Express - Go - Python - C#',
+  'CSS - Bootstrap - Tailwind',
+  'MySQL - PostgreSQL - MongoDB',
+  'GIT - GITHUB - SCRUM',
 ];
 
 export const newFeatures = [
@@ -89,10 +89,15 @@ export const newFeatures = [
 
 export const insights = [
   {
+    imgUrl: '/flutter.jpg',
+    title: '| Flutter Developer - Fernando Herrera - Udemy',
+    subtitle: 'Developer of Hybrid Mobile Applications with Flutter',
+  },
+  {
     imgUrl: '/henry.png',
-    title: '| SOY HENRY - Full Stack Developer - Henry BootCamp (in progress)',
+    title: '| SOY HENRY - Full Stack Developer - Henry BootCamp',
     subtitle:
-      'Henry Student. Full stack developer certification with javascript, react, node and other technologies for web development',
+      'Full stack developer certification with Javascript, React, Node and other technologies for Web Development',
   },
   {
     imgUrl: '/ocasa.png',
@@ -109,10 +114,11 @@ export const insights = [
 ];
 
 export const socials = [
-  // {
-  //   name: 'twitter',
-  //   url: '/twitter.svg',
-  // },
+  {
+    name: 'twitter',
+    url: '/twitter.svg',
+    href: 'https://twitter.com/HectorRiosDev',
+  },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
