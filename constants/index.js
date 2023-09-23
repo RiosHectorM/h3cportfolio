@@ -141,7 +141,7 @@ export const contacts = [
   },
   {
     item: '+54 9 3517739781',
-    imgUrl: '/phone.svg',
+    imgUrl: '/phone.png',
     url: 'https://wa.me/543517739781',
   },
   {
