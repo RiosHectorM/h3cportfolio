@@ -11,7 +11,6 @@ import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
   const [active, setActive] = useState('p-1');
-
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
@@ -31,7 +30,7 @@ const Explore = () => {
           )}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5 flex-wrap ">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}

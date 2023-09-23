@@ -90,7 +90,7 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/flutter.jpg',
-    title: '| Flutter Developer - Fernando Herrera - Udemy',
+    title: '| Flutter Developer - Udemy',
     subtitle: 'Developer of Hybrid Mobile Applications with Flutter',
   },
   {
@@ -142,9 +142,11 @@ export const contacts = [
   {
     item: '+54 9 3517739781',
     imgUrl: '/phone.svg',
+    url: 'https://wa.me/543517739781',
   },
   {
     item: 'Cordoba - Argentina',
     imgUrl: '/locate.svg',
+    url: 'https://www.google.com/maps/place/C%C3%B3rdoba/',
   },
 ];

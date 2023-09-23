@@ -14,7 +14,7 @@ const Insights = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: "false", amount: 0.25 }}
+      viewport={{ once: 'false', amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText tittle="| Additional Information" textStyles="text-center" />
@@ -25,7 +25,7 @@ const Insights = () => (
       <motion.div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((insight, index) => (
           <motion.div
-            variants={fadeIn("right", "tween", 0.3 * index, 1)}
+            variants={fadeIn('right', 'tween', 0.3 * index, 1)}
             className="flex justify-center flex-col w-full"
             initial="hidden"
             whileInView="show"
